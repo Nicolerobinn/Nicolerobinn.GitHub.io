@@ -1,55 +1,33 @@
 {
-  "/__docusaurus/debug-3d6": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/config-914": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/content-c28": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-3cf": {
-    "component": "component---theme-debug-global-dataede-0fa"
-  },
-  "/__docusaurus/debug/metadata-31b": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
-  },
-  "/__docusaurus/debug/registry-0da": {
-    "component": "component---theme-debug-registry-679-501"
-  },
-  "/__docusaurus/debug/routes-244": {
-    "component": "component---theme-debug-routes-946-699"
-  },
   "/测试博客-d52": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---测试博客-814-fad",
-    "content": "content---测试博客-985-5dd"
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "9858d89e"
   },
   "/你好-d2e": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---测试博客-814-fad",
-    "content": "content---你好d-9-f-f9c"
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "d9f32620"
   },
   "/archive-72e": {
-    "component": "component---theme-blog-archive-page-9-e-4-1d8",
-    "archive": "archive---archive-2-e-8-25f"
+    "component": "9e4087bc",
+    "archive": "2e801cce"
   },
   "/markdown-page-be1": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---markdown-page-393-028"
+    "component": "1f391b9e",
+    "content": "393be207"
   },
   "/-af7": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---测试博客-814-fad",
+    "component": "a6aa9e1f",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---766-bab"
+        "content": "7661071f"
       },
       {
-        "content": "content---835-f57"
+        "content": "835d2db7"
       }
     ],
-    "metadata": "metadata---a-55-c63"
+    "metadata": "a5557bb9"
   }
 }

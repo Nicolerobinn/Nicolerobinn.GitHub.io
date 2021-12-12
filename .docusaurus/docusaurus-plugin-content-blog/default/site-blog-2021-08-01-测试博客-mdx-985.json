@@ -1,0 +1,24 @@
+{
+  "permalink": "/测试博客",
+  "source": "@site/blog/2021-08-01-测试博客.mdx",
+  "title": "测试博客",
+  "description": "",
+  "date": "2021-08-01T00:00:00.000Z",
+  "formattedDate": "August 1, 2021",
+  "tags": [],
+  "readingTime": 0,
+  "truncated": false,
+  "authors": [
+    {
+      "name": "陈晓铜",
+      "title": "学无止境",
+      "url": "https://github.com/Nicolerobinn",
+      "imageURL": "https://avatars.githubusercontent.com/u/48322373?v=4",
+      "key": "陈晓铜"
+    }
+  ],
+  "prevItem": {
+    "title": "你好👋",
+    "permalink": "/你好"
+  }
+}

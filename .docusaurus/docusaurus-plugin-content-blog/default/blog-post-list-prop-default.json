@@ -1,0 +1,13 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "你好👋",
+      "permalink": "/你好"
+    },
+    {
+      "title": "测试博客",
+      "permalink": "/测试博客"
+    }
+  ]
+}

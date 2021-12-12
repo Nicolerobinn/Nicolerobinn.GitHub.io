@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://nicolerobinn.github.io/</id>
+    <title>晓铜 Blog</title>
+    <updated>2021-08-26T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://nicolerobinn.github.io/"/>
+    <subtitle>晓铜 Blog</subtitle>
+    <icon>https://nicolerobinn.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[你好👋]]></title>
+        <id>你好</id>
+        <link href="https://nicolerobinn.github.io/你好"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[你好，我叫陈晓铜，是一名 web developer，97 年的尾巴，东北人，家在布拉戈维申斯克对岸。]]></summary>
+        <content type="html"><![CDATA[<p>你好，我叫陈晓铜，是一名 web developer，97 年的尾巴，东北人，家在布拉戈维申斯克对岸。
+比较喜欢推崇新的技术，善于用热情去尝试，喜欢钻研新的点子，学习新的技术，不断进取，希望滴水成河，通过小的努力去成就大的结果。</p>]]></content>
+        <author>
+            <name>陈晓铜</name>
+            <uri>https://github.com/Nicolerobinn</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[测试博客]]></title>
+        <id>测试博客</id>
+        <link href="https://nicolerobinn.github.io/测试博客"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+        <author>
+            <name>陈晓铜</name>
+            <uri>https://github.com/Nicolerobinn</uri>
+        </author>
+    </entry>
+</feed>

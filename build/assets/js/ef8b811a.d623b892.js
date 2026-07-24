@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknicolerobinn_github_io=globalThis.webpackChunknicolerobinn_github_io||[]).push([[947],{6600(e){e.exports=JSON.parse('{"authors":[{"name":"\u9648\u6653\u94dc","title":"Web Developer \xb7 \u5b66\u65e0\u6b62\u5883","url":"https://github.com/Nicolerobinn","imageURL":"/img/avatar.jpg","key":"\u9648\u6653\u94dc","page":null,"count":1}]}')}}]);

@@ -1,41 +1,35 @@
-# Website
+# 陈晓铜的个人主页
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+基于 [Docusaurus 3](https://docusaurus.io/) 构建的个人主页与技术博客。
 
-### Installation
+## 安装
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+```bash
+yarn
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 本地开发
 
-### Build
-
-```
-$ yarn build
+```bash
+yarn start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 构建
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+yarn build
 ```
 
-Not using SSH:
+构建产物会生成在 `build` 目录，可部署到 GitHub Pages 或其他静态托管服务。
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+## 部署
+
+```bash
+USE_SSH=true yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+或：
+
+```bash
+GIT_USER=Nicolerobinn yarn deploy
+```

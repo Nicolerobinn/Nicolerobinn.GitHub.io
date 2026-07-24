@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://nicolerobinn.github.io/blog</id>
+    <title>晓铜的博客</title>
+    <updated>2021-08-26T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://nicolerobinn.github.io/blog"/>
+    <subtitle>关于 Web 开发、技术探索与持续学习的记录。</subtitle>
+    <icon>https://nicolerobinn.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[你好👋]]></title>
+        <id>https://nicolerobinn.github.io/blog/你好</id>
+        <link href="https://nicolerobinn.github.io/blog/你好"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[你好，我叫陈晓铜，是一名 web developer，97 年的尾巴，东北人，家在布拉戈维申斯克对岸。]]></summary>
+        <content type="html"><![CDATA[<p>你好，我叫陈晓铜，是一名 web developer，97 年的尾巴，东北人，家在布拉戈维申斯克对岸。</p>
+<p>比较喜欢推崇新的技术，善于用热情去尝试，喜欢钻研新的点子，学习新的技术，不断进取，希望滴水成河，通过小的努力去成就大的结果。</p>]]></content>
+        <author>
+            <name>陈晓铜</name>
+            <uri>https://github.com/Nicolerobinn</uri>
+        </author>
+    </entry>
+</feed>

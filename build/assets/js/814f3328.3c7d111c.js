@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknicolerobinn_github_io=globalThis.webpackChunknicolerobinn_github_io||[]).push([[472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u4f60\u597d\ud83d\udc4b","permalink":"/blog/\u4f60\u597d","unlisted":false,"date":"2021-08-26T00:00:00.000Z"}]}')}}]);

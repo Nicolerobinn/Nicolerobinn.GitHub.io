@@ -3,11 +3,9 @@
   "items": [
     {
       "title": "你好👋",
-      "permalink": "/你好"
-    },
-    {
-      "title": "测试博客",
-      "permalink": "/测试博客"
+      "permalink": "/blog/你好",
+      "unlisted": false,
+      "date": "2021-08-26T00:00:00.000Z"
     }
   ]
 }

@@ -1,37 +1,49 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes: prismThemes} = require('prism-react-renderer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '晓铜',
-  tagline: '晓铜的个人博客',
-  url: 'https://nicolerobinn.github.io/',
+  title: '陈晓铜 · Web Developer',
+  tagline: '把新的想法，做成真正好用的 Web 体验',
+  url: 'https://nicolerobinn.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Nick', // Usually your GitHub org/user name.
-  projectName: 'Nicolerobinn.GitHub.io', // Usually your repo name.
+  organizationName: 'Nicolerobinn',
+  projectName: 'Nicolerobinn.GitHub.io',
+  i18n: {
+    defaultLocale: 'zh-CN',
+    locales: ['zh-CN'],
+    localeConfigs: {
+      'zh-CN': {
+        label: '简体中文',
+        htmlLang: 'zh-CN',
+      },
+    },
+  },
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   themes: ['@docusaurus/theme-live-codeblock'],
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        // docs: {
-        //   sidebarPath: require.resolve('./sidebars.js'),
-        //   // Please change this to your repo.
-        //   editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
-        // },
         docs: false,
         blog: {
-          blogTitle: 'Docusaurus blog!',
-          blogDescription: 'A Docusaurus powered blog!',
+          blogTitle: '晓铜的博客',
+          blogDescription: '关于 Web 开发、技术探索与持续学习的记录。',
           path: './blog',
-          routeBasePath: '/', // Set this value to '/'.
+          routeBasePath: 'blog',
+          showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            title: '晓铜的博客',
+            description: '关于 Web 开发、技术探索与持续学习的记录。',
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,14 +55,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/og-home.png',
       navbar: {
-        title: '陈晓铜的个人博客',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'CX.',
+        hideOnScroll: true,
         items: [
-          { to: '/', label: 'Blog', position: 'left' },
+          {to: '/', label: '首页', position: 'right', exact: true},
+          {to: '/blog', label: '博客', position: 'right'},
+          {href: '/#about', label: '关于', position: 'right'},
           {
             href: 'https://github.com/Nicolerobinn',
             label: 'GitHub',
@@ -62,29 +74,25 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
+            title: '探索',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '首页',
+                to: '/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: '博客',
+                to: '/blog',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: '关于我',
+                href: '/#about',
               },
             ],
           },
           {
-            title: 'More',
+            title: '联系',
             items: [
-              {
-                label: 'Blog',
-                to: '/',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/Nicolerobinn',
@@ -92,11 +100,27 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        logo: {
+          alt: '陈晓铜',
+          src: 'img/avatar.jpg',
+          width: 44,
+          height: 44,
+        },
+        copyright: `© ${new Date().getFullYear()} 陈晓铜 · 保持好奇，持续创造。`,
       },
+      colorMode: {
+        defaultMode: 'light',
+        respectPrefersColorScheme: true,
+      },
+      metadata: [
+        {
+          name: 'keywords',
+          content: '陈晓铜, Web Developer, 前端开发, 技术博客',
+        },
+      ],
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
     }),
 };

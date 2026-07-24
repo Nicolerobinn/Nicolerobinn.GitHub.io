@@ -1,28 +1,147 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #315f49;
+  --ifm-color-primary-dark: #2c5642;
+  --ifm-color-primary-darker: #294f3d;
+  --ifm-color-primary-darkest: #224232;
+  --ifm-color-primary-light: #386c53;
+  --ifm-color-primary-lighter: #3c7359;
+  --ifm-color-primary-lightest: #4b8f6f;
+  --ifm-background-color: #f5f3eb;
+  --ifm-navbar-background-color: rgba(245, 243, 235, 0.9);
+  --ifm-font-family-base:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  --ifm-font-family-monospace:
+    'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  --ifm-heading-font-family: var(--ifm-font-family-base);
   --ifm-code-font-size: 95%;
+  --ifm-navbar-height: 4.25rem;
+  --ifm-global-radius: 0;
 }
 
-.docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.1);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+html[data-theme='dark'] {
+  --ifm-color-primary: #b9e84d;
+  --ifm-color-primary-dark: #a9dc29;
+  --ifm-color-primary-darker: #9fd027;
+  --ifm-color-primary-darkest: #83ab20;
+  --ifm-color-primary-light: #c3eb69;
+  --ifm-color-primary-lighter: #c8ed77;
+  --ifm-color-primary-lightest: #d9f2a5;
+  --ifm-background-color: #101712;
+  --ifm-navbar-background-color: rgba(16, 23, 18, 0.9);
+  --ifm-footer-background-color: #080c09;
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--ifm-navbar-height) + 1rem);
+}
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(20, 37, 29, 0.13);
+  backdrop-filter: blur(16px);
+  box-shadow: none;
+}
+
+html[data-theme='dark'] .navbar {
+  border-bottom-color: rgba(232, 238, 233, 0.12);
+}
+
+.navbar__brand {
+  margin-right: auto;
+}
+
+.navbar__title {
+  padding: 0.32rem 0.55rem;
+  background: var(--ifm-font-color-base);
+  color: var(--ifm-background-color);
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.83rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.navbar__link {
+  font-size: 0.86rem;
+  font-weight: 650;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--ifm-color-primary);
+}
+
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  background: #080c09;
+}
+
+.footer__logo {
+  border-radius: 50%;
+}
+
+.footer__title {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+}
+
+.footer__link-item,
+.footer__copyright {
+  color: #aebbb3;
+}
+
+.theme-blog-list-page,
+.theme-blog-post-page,
+.blog-tags-post-list-page {
+  background:
+    linear-gradient(rgba(49, 95, 73, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(49, 95, 73, 0.055) 1px, transparent 1px),
+    var(--ifm-background-color);
+  background-size: 56px 56px;
+}
+
+.theme-blog-list-page main,
+.theme-blog-post-page main {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+article header h1,
+article header h2 {
+  letter-spacing: -0.035em;
+}
+
+.pagination-nav__link {
+  border-color: var(--ifm-color-emphasis-300);
+  border-radius: 0;
+}
+
+code {
+  border-radius: 0;
+}
+
+::selection {
+  background: #c7f25b;
+  color: #14251d;
+}
+
+@media (max-width: 996px) {
+  :root {
+    --ifm-navbar-height: 4rem;
+  }
+
+  .navbar__items--right .navbar__item {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

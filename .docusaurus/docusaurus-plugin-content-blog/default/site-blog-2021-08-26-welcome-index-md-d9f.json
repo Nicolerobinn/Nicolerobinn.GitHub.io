@@ -1,24 +1,28 @@
 {
-  "permalink": "/你好",
+  "permalink": "/blog/你好",
   "source": "@site/blog/2021-08-26-welcome/index.md",
   "title": "你好👋",
   "description": "你好，我叫陈晓铜，是一名 web developer，97 年的尾巴，东北人，家在布拉戈维申斯克对岸。",
   "date": "2021-08-26T00:00:00.000Z",
-  "formattedDate": "August 26, 2021",
   "tags": [],
-  "readingTime": 0.425,
-  "truncated": false,
+  "readingTime": 0.29,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "陈晓铜",
-      "title": "学无止境",
+      "title": "Web Developer · 学无止境",
       "url": "https://github.com/Nicolerobinn",
-      "imageURL": "https://avatars.githubusercontent.com/u/48322373?v=4",
-      "key": "陈晓铜"
+      "imageURL": "/img/avatar.jpg",
+      "key": "陈晓铜",
+      "page": null
     }
   ],
-  "nextItem": {
-    "title": "测试博客",
-    "permalink": "/测试博客"
-  }
+  "frontMatter": {
+    "slug": "你好",
+    "title": "你好👋",
+    "authors": [
+      "陈晓铜"
+    ]
+  },
+  "unlisted": false
 }
